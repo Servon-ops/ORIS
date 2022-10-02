@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+
+header {
+    background: #171a21;
+    height: 104px;
+}
+
+.global-header {
+    height: 104px;
+    background: #171a21;
+    width: 940px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    align-items: center;
+}
+
+.content {
+    height: 655px;
+    background: radial-gradient(rgba(24, 26, 33, 0) 0%, #181A21 100%) fixed no-repeat, url(https://community.akamai.steamstatic.com/public/shared/images/joinsteam/new_login_bg_strong_mask.jpg) center top no-repeat, #181A21;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 90px 0;
+}
+
+
+.background-image-shadow {
+    height: 655px;
+    /* z-index: 100;
+    background: radial-gradient(rgba(24, 26, 33, 0) 0%, #181A21 100%); */
+}
+
+.steam-logo {
+    width: 176px;
+    height: 44px;  
+    vertical-align: middle;
+    display: flex-inline;
+    align-items: center;
+}
+
+.header-menu {
+    padding: 7px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #b8b6b4;
+    display: flex-inline;
+    vertical-align: middle;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.header-menu-text {
+    padding: 7px;
+    text-decoration: none;
+    color: #b8b6b4;
+    display: flex-inline;
+    align-items: center;
+}
+
+.header-menu-mini {
+    height: 100%;
+    width: 344px;
+    display: flex;
+    justify-content: right;
+}
+
+.header-menu-mini-line {
+    height: 25px;
+    width: 242px;
+    display: flex;
+    margin-top: 4px;
+}
+
+.instal-btn {
+    width: 136px;
+    height: 24px;
+    background-color: #5c7e10;
+    margin: 2px;
+}
+
+.instal-img {
+    vertical-align: middle;
+    display: inline;
+    margin-left: 10px;
+    margin-top: -2px;
+}
+
+.instal-text {
+    display: inline-block;
+    margin-top: 7px;
+    margin-left: 6px;
+}
+
+.white-hover:hover{
+    color: #FFFFFF;
+}
+
+.header-mini-font {
+    font-size: 11px;
+    font-family: Motiva, sans-serif;
+    color: #E5E4DC;
+}
+
+.enter-btn {
+    color: #b8b6b4;
+    margin-left: 10px;
+    margin-top: 4px;
+    text-decoration: none;
+}
+
+.enter-text {
+    line-height: 24px;
+    vertical-align: middle;
+}
+
+.language-span {
+    background-image: url(data:image/gif;base64,R0lGODlhEwAMAIABAMXDwgAAACH5BAEAAAEALAAAAAATAAwAAAIUjI+py+0PEZh0wmpjjSfzD4aiUQAAOw==);
+    background-position: right center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding-right: 18px;
+    line-height: 24px;
+    vertical-align: middle;
+    margin-top: 4px;
+    color: #b8b6b4;
+}
+
+.enter-window {
+    height: 283px;
+    width: 636px;
+    background-color: #171a21;
+    display: block;
+    margin: 50px 0;
+    padding: 24px 36px;
+}
+
+.account-field {
+    padding: 10px;
+    border: 1px;
+    width: 390px;
+    margin-top: 5px;
+    background-color: #32353C;
+    font-size: 15px;
+    color: #FFFFFF;
+    outline: none;
+    display: inline-block;
+}
+.name-account-field:hover{
+    background-color: #393C44;
+}
+
+.checkbox-password {
+    height: 17px;
+    width: 17px;
+    vertical-align: middle;
+    border: none;
+    background: #32353C;
+    padding: 3px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.enter-button {
+    font-size: 18px;
+    font-family: Motiva, sans-serif;
+    width: 246px;
+    padding: 12px;
+    background: linear-gradient(90deg, #06BFFF 30%, #2D73FF 100%);
+    color: #FFFFFF;
+    position: relative;
+    display: inline-block;
+}
+
+.enter-button-container {
+    justify-content: center;
+    display: flex;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.please-help {
+    font-size: 12px;
+    font-family: Motiva, sans-serif;
+    color: #AFAFAF;
+}
+.please-help:hover {
+    color: #C9C9C9;
+}
+
+.checkbox-password:focus {
+    background-image: url("../icons/checkmark.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.checkbox-password:hover {
+    background-color: #393C44;
+}
+
+.new-func-container {
+    display: inline-block;
+    vertical-align:top;
+    float: right;
+    margin-top: 5px;
+}
